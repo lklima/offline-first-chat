@@ -1,4 +1,5 @@
-import { Octicons } from "@expo/vector-icons";
+import { Entypo, Octicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 import { Text, TextInput, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
@@ -6,11 +7,12 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { theme } from "@/constants/theme";
 import { styles } from "./styles";
 // components
+import { BaseButton } from "@/components/BaseButton";
 import { BottomTab } from "@/components/BottomTab";
 import { ChatList } from "@/components/ChatList";
 
 export const Main = () => {
-  const { top } = useSafeAreaInsets();
+  const { top, bottom } = useSafeAreaInsets();
 
   return (
     <View style={[styles.container]}>
@@ -25,6 +27,12 @@ export const Main = () => {
         </View>
         <ChatList />
       </View>
+      <BaseButton
+        style={[styles.addChatButton, { bottom: bottom + 150 }]}
+        onPress={() => router.navigate("/modal")}
+      >
+        <Entypo name="plus" size={30} color="white" />
+      </BaseButton>
       <BottomTab />
     </View>
   );

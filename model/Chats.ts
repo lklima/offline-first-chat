@@ -12,8 +12,9 @@ export class Chats extends Model {
   @text("user_image") userImage!: string;
   @text("user_name") userName!: string;
   @text("last_message") lastMessage!: string;
-  @text("last_message_time") lastMessageTime!: string;
+  @text("user_id") userId!: string;
   @field("unread_count") unreadCount!: number;
   @readonly @date("created_at") createdAt!: Date;
   @readonly @date("updated_at") updatedAt!: Date;
+  @date("last_message_time") lastMessageTime!: Date;
 }

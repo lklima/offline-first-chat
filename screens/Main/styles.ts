@@ -41,4 +41,14 @@ export const styles = StyleSheet.create({
     color: theme.colors.primary,
     marginLeft: theme.spacing.sm,
   },
+  addChatButton: {
+    width: 60,
+    height: 60,
+    borderRadius: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: theme.colors.primary,
+    position: "absolute",
+    right: theme.spacing.md,
+  },
 });

@@ -38,7 +38,9 @@ export const database = new Database({
 export default function RootLayout() {
   return (
     <KeyboardProvider>
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="modal" options={{ presentation: "modal" }} />
+      </Stack>
     </KeyboardProvider>
   );
 }

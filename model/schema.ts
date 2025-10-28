@@ -8,6 +8,7 @@ export default appSchema({
       columns: [
         { name: "user_image", type: "string" },
         { name: "user_name", type: "string" },
+        { name: "user_id", type: "string" },
         { name: "last_message", type: "string" },
         { name: "last_message_time", type: "string" },
         { name: "unread_count", type: "number" },
@@ -20,7 +21,7 @@ export default appSchema({
       columns: [
         { name: "chat_id", type: "string", isIndexed: true },
         { name: "message", type: "string" },
-        { name: "is_source_user", type: "boolean" },
+        { name: "sender_id", type: "string" },
         { name: "created_at", type: "number" },
         { name: "updated_at", type: "number" },
       ],
