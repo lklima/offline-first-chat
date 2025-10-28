@@ -20,7 +20,7 @@
 		13B07F961A680F5B00A75B9A /* watermelonchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watermelonchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = watermelonchat/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = watermelonchat/Info.plist; sourceTree = "<group>"; };
-		3ECFB006E8FC1360F8D5219A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = watermelonchat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3ECFB006E8FC1360F8D5219A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = watermelonchat/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5DD47F94605B52165EB8A74E /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-watermelonchat/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		A71BDB6E409D0602CAE9B225 /* Pods-watermelonchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watermelonchat.release.xcconfig"; path = "Target Support Files/Pods-watermelonchat/Pods-watermelonchat.release.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = watermelonchat/SplashScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				CB1D42CA42391F8AAE4E599E /* Pods-watermelonchat.debug.xcconfig */,
 				A71BDB6E409D0602CAE9B225 /* Pods-watermelonchat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

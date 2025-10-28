@@ -6,3 +6,10 @@ declare type Chat = {
   lastMessageTime: string;
   unreadCount: number;
 };
+
+declare type Message = {
+  id: number;
+  message: string;
+  createdAt: string;
+  sourceUser: boolean;
+};
